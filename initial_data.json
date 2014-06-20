@@ -1,0 +1,107 @@
+[
+{
+  "pk": 1, 
+  "model": "polls.poll", 
+  "fields": {
+    "pub_date": "2014-06-20T09:31:09.593Z", 
+    "question": "Is Django cool?"
+  }
+},
+{
+  "pk": 2, 
+  "model": "polls.poll", 
+  "fields": {
+    "pub_date": "2014-06-20T09:44:34.655Z", 
+    "question": "Is Joe cool?"
+  }
+},
+{
+  "pk": 3, 
+  "model": "polls.poll", 
+  "fields": {
+    "pub_date": "2014-06-20T11:06:02.639Z", 
+    "question": "What DOES the fox say?"
+  }
+},
+{
+  "pk": 1, 
+  "model": "polls.choice", 
+  "fields": {
+    "choice_text": "Yes", 
+    "poll": 1, 
+    "votes": 0
+  }
+},
+{
+  "pk": 2, 
+  "model": "polls.choice", 
+  "fields": {
+    "choice_text": "No", 
+    "poll": 1, 
+    "votes": 0
+  }
+},
+{
+  "pk": 3, 
+  "model": "polls.choice", 
+  "fields": {
+    "choice_text": "Kinda", 
+    "poll": 1, 
+    "votes": 0
+  }
+},
+{
+  "pk": 4, 
+  "model": "polls.choice", 
+  "fields": {
+    "choice_text": "Of course", 
+    "poll": 2, 
+    "votes": 0
+  }
+},
+{
+  "pk": 5, 
+  "model": "polls.choice", 
+  "fields": {
+    "choice_text": "Obviously", 
+    "poll": 2, 
+    "votes": 0
+  }
+},
+{
+  "pk": 6, 
+  "model": "polls.choice", 
+  "fields": {
+    "choice_text": "Mhmmmm", 
+    "poll": 2, 
+    "votes": 0
+  }
+},
+{
+  "pk": 7, 
+  "model": "polls.choice", 
+  "fields": {
+    "choice_text": "Who cares?", 
+    "poll": 3, 
+    "votes": 0
+  }
+},
+{
+  "pk": 8, 
+  "model": "polls.choice", 
+  "fields": {
+    "choice_text": "No one knows", 
+    "poll": 3, 
+    "votes": 0
+  }
+},
+{
+  "pk": 9, 
+  "model": "polls.choice", 
+  "fields": {
+    "choice_text": "Meow", 
+    "poll": 3, 
+    "votes": 0
+  }
+}
+]
